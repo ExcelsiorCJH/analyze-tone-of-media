@@ -1,0 +1,21 @@
+model_params:
+  embed_dim: 128
+  hidden_dim: 256
+  num_layers: 2
+  bidirectional: True
+  dropout_p: 0.3
+
+exp_params:
+  data_path: "./data/tokenized/nouns_total_data.txt"
+  vocab_path: "./data/vocab/word_index.pkl"
+  batch_size: 64
+  LR: 0.0001
+
+trainer_params:
+  gpus: 1
+  max_epochs: 30
+
+logging_params:
+  save_dir: "logs/"
+  name: "BiLSTMAttn"
+  manual_seed: 42
