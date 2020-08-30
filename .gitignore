@@ -336,6 +336,11 @@ $RECYCLE.BIN/
 
 # tmp files
 *.tmp
-
+logs/
+logs/*
+checkpoints/
+checkpoints/*
+data/
+data/*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,jupyternotebooks,python,pycharm
